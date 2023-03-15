@@ -1,0 +1,28 @@
+.search {
+    margin-top: 16px;
+    position: relative;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 19px;
+      margin: auto 0;
+      width: 17.49px;
+      height: 17.49px;
+      background: url('../../../resources/img/filterCharacter/searchIcon.svg') no-repeat;
+      background-size: cover;
+    }
+}
+
+.search__input {
+    position: absolute;
+    left: 48px;
+    top: 16px;
+    width: 90%;
+    outline: none;
+    border: none;
+}
