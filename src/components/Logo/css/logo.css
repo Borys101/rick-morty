@@ -1,0 +1,14 @@
+.banner__logo {
+  display: block;
+  margin: 0 auto;
+  padding-top: 86px;
+}
+@media (max-width: 600px) {
+  .banner__logo {
+    width: 312px;
+    height: 104px;
+    padding-top: 92px;
+    display: block;
+    margin: 0 auto;
+  }
+}

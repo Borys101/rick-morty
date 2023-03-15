@@ -1,0 +1,14 @@
+@import '../../../resources/mixins/media_mixin.scss';
+
+.banner__logo {
+    @include _600 {
+        width: 312px;
+        height: 104px;
+        padding-top: 92px;
+        display: block;
+        margin: 0 auto;
+    }
+    display: block;
+    margin: 0 auto;
+    padding-top: 86px;
+}
